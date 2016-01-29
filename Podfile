@@ -4,11 +4,4 @@
 target 'Biograf' do
     pod 'AFNetworking'
     pod 'FastEasyMapping'
-    pod 'Fabric'
-    pod 'Crashlytics'
 end
-
-target 'BiografTests' do
-
-end
-

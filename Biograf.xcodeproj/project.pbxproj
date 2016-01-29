@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B31AB1E21C5B719B009B682E /* FeedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B31AB1E11C5B719B009B682E /* FeedTableViewCell.m */; };
+		B31AB1E61C5B734F009B682E /* Feed.m in Sources */ = {isa = PBXBuildFile; fileRef = B31AB1E51C5B734F009B682E /* Feed.m */; };
+		B31AB1E91C5B7363009B682E /* FeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B31AB1E81C5B7363009B682E /* FeedItem.m */; };
 		B343D1771C5A122B005F47F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B343D1761C5A122B005F47F3 /* main.m */; };
 		B343D17A1C5A122B005F47F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B343D1791C5A122B005F47F3 /* AppDelegate.m */; };
 		B343D17D1C5A122B005F47F3 /* InTheatreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B343D17C1C5A122B005F47F3 /* InTheatreViewController.m */; };
@@ -14,6 +17,7 @@
 		B343D1821C5A122B005F47F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B343D1811C5A122B005F47F3 /* Assets.xcassets */; };
 		B343D1851C5A122B005F47F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B343D1831C5A122B005F47F3 /* LaunchScreen.storyboard */; };
 		B343D1901C5A122B005F47F3 /* BiografTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B343D18F1C5A122B005F47F3 /* BiografTests.m */; };
+		F4E6C3517388B80750C070CE /* libPods-Biograf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAE04505F36B2703DA1F0C2 /* libPods-Biograf.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BAE04505F36B2703DA1F0C2 /* libPods-Biograf.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Biograf.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D91E6F0FECB139502FDB71 /* Pods-Biograf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biograf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Biograf/Pods-Biograf.debug.xcconfig"; sourceTree = "<group>"; };
+		B31AB1E01C5B719B009B682E /* FeedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeedTableViewCell.h; path = Scenes/FeedTableViewCell.h; sourceTree = "<group>"; };
+		B31AB1E11C5B719B009B682E /* FeedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeedTableViewCell.m; path = Scenes/FeedTableViewCell.m; sourceTree = "<group>"; };
+		B31AB1E41C5B734F009B682E /* Feed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Feed.h; path = Models/Feed.h; sourceTree = "<group>"; };
+		B31AB1E51C5B734F009B682E /* Feed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Feed.m; path = Models/Feed.m; sourceTree = "<group>"; };
+		B31AB1E71C5B7363009B682E /* FeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeedItem.h; path = Models/FeedItem.h; sourceTree = "<group>"; };
+		B31AB1E81C5B7363009B682E /* FeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeedItem.m; path = Models/FeedItem.m; sourceTree = "<group>"; };
 		B343D1721C5A122B005F47F3 /* Biograf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Biograf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B343D1761C5A122B005F47F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B343D1781C5A122B005F47F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +52,7 @@
 		B343D18B1C5A122B005F47F3 /* BiografTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiografTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B343D18F1C5A122B005F47F3 /* BiografTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BiografTests.m; sourceTree = "<group>"; };
 		B343D1911C5A122B005F47F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA8F20B9E48E3AF82ABA40B0 /* Pods-Biograf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biograf.release.xcconfig"; path = "Pods/Target Support Files/Pods-Biograf/Pods-Biograf.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4E6C3517388B80750C070CE /* libPods-Biograf.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +74,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FC59D35D313574E10879FE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78D91E6F0FECB139502FDB71 /* Pods-Biograf.debug.xcconfig */,
+				BA8F20B9E48E3AF82ABA40B0 /* Pods-Biograf.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		52DAFCDC4D50E532E8FFAA67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BAE04505F36B2703DA1F0C2 /* libPods-Biograf.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B31AB1DA1C5B704C009B682E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		B31AB1E31C5B732E009B682E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B31AB1E41C5B734F009B682E /* Feed.h */,
+				B31AB1E51C5B734F009B682E /* Feed.m */,
+				B31AB1E71C5B7363009B682E /* FeedItem.h */,
+				B31AB1E81C5B7363009B682E /* FeedItem.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		B343D1691C5A122A005F47F3 = {
 			isa = PBXGroup;
 			children = (
 				B343D1741C5A122B005F47F3 /* Biograf */,
 				B343D18E1C5A122B005F47F3 /* BiografTests */,
 				B343D1731C5A122B005F47F3 /* Products */,
+				2FC59D35D313574E10879FE8 /* Pods */,
+				52DAFCDC4D50E532E8FFAA67 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,7 +132,9 @@
 		B343D1741C5A122B005F47F3 /* Biograf */ = {
 			isa = PBXGroup;
 			children = (
-				B343D19A1C5A1462005F47F3 /* VCs */,
+				B31AB1E31C5B732E009B682E /* Models */,
+				B31AB1DA1C5B704C009B682E /* Networking */,
+				B343D19A1C5A1462005F47F3 /* Scenes */,
 				B343D1781C5A122B005F47F3 /* AppDelegate.h */,
 				B343D1791C5A122B005F47F3 /* AppDelegate.m */,
 				B343D17E1C5A122B005F47F3 /* Main.storyboard */,
@@ -110,13 +163,15 @@
 			path = BiografTests;
 			sourceTree = "<group>";
 		};
-		B343D19A1C5A1462005F47F3 /* VCs */ = {
+		B343D19A1C5A1462005F47F3 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
 				B343D17B1C5A122B005F47F3 /* InTheatreViewController.h */,
 				B343D17C1C5A122B005F47F3 /* InTheatreViewController.m */,
+				B31AB1E01C5B719B009B682E /* FeedTableViewCell.h */,
+				B31AB1E11C5B719B009B682E /* FeedTableViewCell.m */,
 			);
-			name = VCs;
+			name = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B343D1941C5A122B005F47F3 /* Build configuration list for PBXNativeTarget "Biograf" */;
 			buildPhases = (
+				ED0A9CB593ADB6496AF9BCA7 /* Check Pods Manifest.lock */,
 				B343D16E1C5A122A005F47F3 /* Sources */,
 				B343D16F1C5A122A005F47F3 /* Frameworks */,
 				B343D1701C5A122A005F47F3 /* Resources */,
+				7D170B8D2991F6D9FA23243C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,13 +271,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7D170B8D2991F6D9FA23243C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Biograf/Pods-Biograf-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED0A9CB593ADB6496AF9BCA7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B343D16E1C5A122A005F47F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B31AB1E61C5B734F009B682E /* Feed.m in Sources */,
 				B343D17D1C5A122B005F47F3 /* InTheatreViewController.m in Sources */,
+				B31AB1E21C5B719B009B682E /* FeedTableViewCell.m in Sources */,
 				B343D17A1C5A122B005F47F3 /* AppDelegate.m in Sources */,
+				B31AB1E91C5B7363009B682E /* FeedItem.m in Sources */,
 				B343D1771C5A122B005F47F3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +438,7 @@
 		};
 		B343D1951C5A122B005F47F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78D91E6F0FECB139502FDB71 /* Pods-Biograf.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Biograf/Info.plist;
@@ -357,6 +451,7 @@
 		};
 		B343D1961C5A122B005F47F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA8F20B9E48E3AF82ABA40B0 /* Pods-Biograf.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Biograf/Info.plist;
@@ -410,6 +505,7 @@
 				B343D1961C5A122B005F47F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B343D1971C5A122B005F47F3 /* Build configuration list for PBXNativeTarget "BiografTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +514,7 @@
 				B343D1991C5A122B005F47F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

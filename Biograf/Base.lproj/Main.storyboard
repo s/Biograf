@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="WsN-QZ-eSD">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="WsN-QZ-eSD">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
@@ -15,7 +15,49 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="64" width="600" height="487"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Zi5-Z6-l2d">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="487"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FeedCell" id="hBK-JZ-uh4" customClass="FeedTableViewCell">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hBK-JZ-uh4" id="1dU-U0-1vi">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="59"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GVl-h3-XWQ">
+                                                    <rect key="frame" x="8" y="0.0" width="42" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="9bn-oQ-1Uy"/>
+                                                        <constraint firstAttribute="width" constant="42" id="jRD-JJ-byc"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="GVl-h3-XWQ" firstAttribute="top" secondItem="1dU-U0-1vi" secondAttribute="top" id="PTr-nu-6Fq"/>
+                                                <constraint firstAttribute="bottom" secondItem="GVl-h3-XWQ" secondAttribute="bottom" constant="38" id="cPH-js-Pp8"/>
+                                                <constraint firstItem="GVl-h3-XWQ" firstAttribute="leading" secondItem="1dU-U0-1vi" secondAttribute="leading" constant="8" id="wTV-eY-yrD"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="movieTitleLabel" destination="GVl-h3-XWQ" id="ItV-7a-xdh"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Zi5-Z6-l2d" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="o6t-1n-fDJ"/>
+                            <constraint firstItem="Zi5-Z6-l2d" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="pcW-CS-CkY"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Zi5-Z6-l2d" secondAttribute="bottom" id="qH8-6B-N2b"/>
+                            <constraint firstAttribute="trailing" secondItem="Zi5-Z6-l2d" secondAttribute="trailing" id="vax-yj-0cj"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="In Theatre" id="d3G-81-ZRn"/>
                 </viewController>
