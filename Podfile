@@ -4,4 +4,5 @@
 target 'Biograf' do
     pod 'AFNetworking'
     pod 'FastEasyMapping'
+    pod 'SDWebImage'
 end

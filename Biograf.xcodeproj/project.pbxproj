@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B31AB1E21C5B719B009B682E /* FeedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B31AB1E11C5B719B009B682E /* FeedTableViewCell.m */; };
 		B31AB1E61C5B734F009B682E /* Feed.m in Sources */ = {isa = PBXBuildFile; fileRef = B31AB1E51C5B734F009B682E /* Feed.m */; };
 		B31AB1E91C5B7363009B682E /* FeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B31AB1E81C5B7363009B682E /* FeedItem.m */; };
 		B343D1771C5A122B005F47F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B343D1761C5A122B005F47F3 /* main.m */; };
 		B343D17A1C5A122B005F47F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B343D1791C5A122B005F47F3 /* AppDelegate.m */; };
-		B343D17D1C5A122B005F47F3 /* InTheatreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B343D17C1C5A122B005F47F3 /* InTheatreViewController.m */; };
 		B343D1801C5A122B005F47F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B343D17E1C5A122B005F47F3 /* Main.storyboard */; };
 		B343D1821C5A122B005F47F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B343D1811C5A122B005F47F3 /* Assets.xcassets */; };
 		B343D1851C5A122B005F47F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B343D1831C5A122B005F47F3 /* LaunchScreen.storyboard */; };
 		B343D1901C5A122B005F47F3 /* BiografTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B343D18F1C5A122B005F47F3 /* BiografTests.m */; };
+		B3B5833A1C5C5228002C07EB /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B583391C5C5228002C07EB /* APIManager.m */; };
+		B3B583421C5C5A21002C07EB /* NSString+Dates.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B583411C5C5A21002C07EB /* NSString+Dates.m */; };
+		B3B583491C5C5D49002C07EB /* DateFormatFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B583481C5C5D49002C07EB /* DateFormatFactory.m */; };
+		B3B583521C5CD9A7002C07EB /* FeedCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B583511C5CD9A7002C07EB /* FeedCollectionViewCell.m */; };
+		B3B583551C5CDC9B002C07EB /* DiscoverFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B583541C5CDC9B002C07EB /* DiscoverFeedViewController.m */; };
 		F4E6C3517388B80750C070CE /* libPods-Biograf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAE04505F36B2703DA1F0C2 /* libPods-Biograf.a */; };
 /* End PBXBuildFile section */
 
@@ -33,8 +36,6 @@
 /* Begin PBXFileReference section */
 		3BAE04505F36B2703DA1F0C2 /* libPods-Biograf.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Biograf.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78D91E6F0FECB139502FDB71 /* Pods-Biograf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biograf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Biograf/Pods-Biograf.debug.xcconfig"; sourceTree = "<group>"; };
-		B31AB1E01C5B719B009B682E /* FeedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeedTableViewCell.h; path = Scenes/FeedTableViewCell.h; sourceTree = "<group>"; };
-		B31AB1E11C5B719B009B682E /* FeedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeedTableViewCell.m; path = Scenes/FeedTableViewCell.m; sourceTree = "<group>"; };
 		B31AB1E41C5B734F009B682E /* Feed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Feed.h; path = Models/Feed.h; sourceTree = "<group>"; };
 		B31AB1E51C5B734F009B682E /* Feed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Feed.m; path = Models/Feed.m; sourceTree = "<group>"; };
 		B31AB1E71C5B7363009B682E /* FeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeedItem.h; path = Models/FeedItem.h; sourceTree = "<group>"; };
@@ -43,8 +44,6 @@
 		B343D1761C5A122B005F47F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B343D1781C5A122B005F47F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B343D1791C5A122B005F47F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B343D17B1C5A122B005F47F3 /* InTheatreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InTheatreViewController.h; sourceTree = "<group>"; };
-		B343D17C1C5A122B005F47F3 /* InTheatreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InTheatreViewController.m; sourceTree = "<group>"; };
 		B343D17F1C5A122B005F47F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B343D1811C5A122B005F47F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B343D1841C5A122B005F47F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +51,18 @@
 		B343D18B1C5A122B005F47F3 /* BiografTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiografTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B343D18F1C5A122B005F47F3 /* BiografTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BiografTests.m; sourceTree = "<group>"; };
 		B343D1911C5A122B005F47F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3B583371C5C4700002C07EB /* Biograf-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Biograf-Prefix.pch"; path = "SupportingFiles/Biograf-Prefix.pch"; sourceTree = "<group>"; };
+		B3B583381C5C5228002C07EB /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIManager.h; path = Networking/APIManager.h; sourceTree = "<group>"; };
+		B3B583391C5C5228002C07EB /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APIManager.m; path = Networking/APIManager.m; sourceTree = "<group>"; };
+		B3B5833B1C5C5278002C07EB /* APIConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = APIConstants.h; path = Networking/APIConstants.h; sourceTree = "<group>"; };
+		B3B583401C5C5A21002C07EB /* NSString+Dates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Dates.h"; path = "Categories/NSString+Dates.h"; sourceTree = "<group>"; };
+		B3B583411C5C5A21002C07EB /* NSString+Dates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Dates.m"; path = "Categories/NSString+Dates.m"; sourceTree = "<group>"; };
+		B3B583471C5C5D49002C07EB /* DateFormatFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DateFormatFactory.h; path = Formatter/DateFormatFactory.h; sourceTree = "<group>"; };
+		B3B583481C5C5D49002C07EB /* DateFormatFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DateFormatFactory.m; path = Formatter/DateFormatFactory.m; sourceTree = "<group>"; };
+		B3B583501C5CD9A7002C07EB /* FeedCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeedCollectionViewCell.h; path = Scenes/FeedCollectionViewCell.h; sourceTree = "<group>"; };
+		B3B583511C5CD9A7002C07EB /* FeedCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeedCollectionViewCell.m; path = Scenes/FeedCollectionViewCell.m; sourceTree = "<group>"; };
+		B3B583531C5CDC9B002C07EB /* DiscoverFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiscoverFeedViewController.h; path = Scenes/DiscoverFeedViewController.h; sourceTree = "<group>"; };
+		B3B583541C5CDC9B002C07EB /* DiscoverFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DiscoverFeedViewController.m; path = Scenes/DiscoverFeedViewController.m; sourceTree = "<group>"; };
 		BA8F20B9E48E3AF82ABA40B0 /* Pods-Biograf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biograf.release.xcconfig"; path = "Pods/Target Support Files/Pods-Biograf/Pods-Biograf.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +105,9 @@
 		B31AB1DA1C5B704C009B682E /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				B3B583381C5C5228002C07EB /* APIManager.h */,
+				B3B583391C5C5228002C07EB /* APIManager.m */,
+				B3B5833B1C5C5278002C07EB /* APIConstants.h */,
 			);
 			name = Networking;
 			sourceTree = "<group>";
@@ -132,6 +146,8 @@
 		B343D1741C5A122B005F47F3 /* Biograf */ = {
 			isa = PBXGroup;
 			children = (
+				B3B583461C5C5D22002C07EB /* Formatter */,
+				B3B5833F1C5C5A07002C07EB /* Categories */,
 				B31AB1E31C5B732E009B682E /* Models */,
 				B31AB1DA1C5B704C009B682E /* Networking */,
 				B343D19A1C5A1462005F47F3 /* Scenes */,
@@ -150,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				B343D1761C5A122B005F47F3 /* main.m */,
+				B3B583371C5C4700002C07EB /* Biograf-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -166,12 +183,30 @@
 		B343D19A1C5A1462005F47F3 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				B343D17B1C5A122B005F47F3 /* InTheatreViewController.h */,
-				B343D17C1C5A122B005F47F3 /* InTheatreViewController.m */,
-				B31AB1E01C5B719B009B682E /* FeedTableViewCell.h */,
-				B31AB1E11C5B719B009B682E /* FeedTableViewCell.m */,
+				B3B583501C5CD9A7002C07EB /* FeedCollectionViewCell.h */,
+				B3B583511C5CD9A7002C07EB /* FeedCollectionViewCell.m */,
+				B3B583531C5CDC9B002C07EB /* DiscoverFeedViewController.h */,
+				B3B583541C5CDC9B002C07EB /* DiscoverFeedViewController.m */,
 			);
 			name = Scenes;
+			sourceTree = "<group>";
+		};
+		B3B5833F1C5C5A07002C07EB /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B3B583401C5C5A21002C07EB /* NSString+Dates.h */,
+				B3B583411C5C5A21002C07EB /* NSString+Dates.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		B3B583461C5C5D22002C07EB /* Formatter */ = {
+			isa = PBXGroup;
+			children = (
+				B3B583471C5C5D49002C07EB /* DateFormatFactory.h */,
+				B3B583481C5C5D49002C07EB /* DateFormatFactory.m */,
+			);
+			name = Formatter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,12 +344,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3B583521C5CD9A7002C07EB /* FeedCollectionViewCell.m in Sources */,
+				B3B583551C5CDC9B002C07EB /* DiscoverFeedViewController.m in Sources */,
 				B31AB1E61C5B734F009B682E /* Feed.m in Sources */,
-				B343D17D1C5A122B005F47F3 /* InTheatreViewController.m in Sources */,
-				B31AB1E21C5B719B009B682E /* FeedTableViewCell.m in Sources */,
 				B343D17A1C5A122B005F47F3 /* AppDelegate.m in Sources */,
+				B3B583491C5C5D49002C07EB /* DateFormatFactory.m in Sources */,
+				B3B5833A1C5C5228002C07EB /* APIManager.m in Sources */,
 				B31AB1E91C5B7363009B682E /* FeedItem.m in Sources */,
 				B343D1771C5A122B005F47F3 /* main.m in Sources */,
+				B3B583421C5C5A21002C07EB /* NSString+Dates.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +479,14 @@
 			baseConfigurationReference = 78D91E6F0FECB139502FDB71 /* Pods-Biograf.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Biograf/SupportingFiles/Biograf-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
 				INFOPLIST_FILE = Biograf/Info.plist;
+				INFOPLIST_PREFIX_HEADER = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.towerlabs.Biograf;
@@ -454,7 +499,14 @@
 			baseConfigurationReference = BA8F20B9E48E3AF82ABA40B0 /* Pods-Biograf.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Biograf/SupportingFiles/Biograf-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
 				INFOPLIST_FILE = Biograf/Info.plist;
+				INFOPLIST_PREFIX_HEADER = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.towerlabs.Biograf;

@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #include "FeedItem.h"
 
+
 @interface Feed : NSObject
 
 @property (nonatomic) NSNumber *page;
@@ -16,5 +17,5 @@
 @property (nonatomic) NSNumber *totalPages;
 @property (nonatomic) NSArray<FeedItem*> *results;
 
-
++ (FEMMapping *)defaultMapping;
 @end
