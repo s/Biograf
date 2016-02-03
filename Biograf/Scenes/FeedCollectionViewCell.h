@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-@class FeedItem;
+#import "FeedItem.h"
 
 @interface FeedCollectionViewCell : UICollectionViewCell
 - (void)configureWithFeedItem:(FeedItem *)feedItem;

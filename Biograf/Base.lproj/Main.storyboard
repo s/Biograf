@@ -8,32 +8,32 @@
         <scene sceneID="eLd-1c-zE9">
             <objects>
                 <collectionViewController title="Discover" id="kNB-x0-Plh" customClass="DiscoverFeedViewController" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" dataMode="prototypes" id="yJa-Xa-Wqc">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" dataMode="prototypes" id="yJa-Xa-Wqc">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="33D-8d-y6D">
-                            <size key="itemSize" width="174" height="286"/>
+                            <size key="itemSize" width="150" height="286"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="sectionInset" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FeedCell" id="YDa-8p-tG0" customClass="FeedCollectionViewCell">
-                                <rect key="frame" x="0.0" y="64" width="174" height="286"/>
+                                <rect key="frame" x="10" y="64" width="150" height="286"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="174" height="286"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="150" height="286"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000000000000004" translatesAutoresizingMaskIntoConstraints="NO" id="N4t-ss-cvd">
-                                            <rect key="frame" x="10" y="257" width="154" height="21"/>
+                                            <rect key="frame" x="10" y="257" width="130" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tpA-QR-bpc">
-                                            <rect key="frame" x="0.0" y="0.0" width="174" height="247"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DefaultPoster" translatesAutoresizingMaskIntoConstraints="NO" id="tpA-QR-bpc">
+                                            <rect key="frame" x="0.0" y="0.0" width="150" height="247"/>
                                         </imageView>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -69,7 +69,7 @@
         <scene sceneID="nVZ-77-pwb">
             <objects>
                 <navigationController title="Discover Tab" automaticallyAdjustsScrollViewInsets="NO" id="DuE-RI-ydD" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="bZH-t9-Hop"/>
+                    <tabBarItem key="tabBarItem" title="" systemItem="mostViewed" id="bZH-t9-Hop"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="sXZ-te-azN">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -102,4 +102,7 @@
             <point key="canvasLocation" x="1523" y="2450"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="DefaultPoster" width="150" height="247"/>
+    </resources>
 </document>

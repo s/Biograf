@@ -7,7 +7,6 @@
 //
 
 #import "FeedCollectionViewCell.h"
-#include "FeedItem.h"
 #include "APIConstants.h"
 #import <SDWebImage/UIImageView+WebCache.h>
 
@@ -21,9 +20,11 @@
 @implementation FeedCollectionViewCell
 - (void)configureWithFeedItem:(FeedItem *)feedItem{
     self.movieTitleLabel.text = feedItem.originalTitle;
-    self.moviePoster.image = nil;
+
     if (feedItem.posterPath) {
         [self.moviePoster sd_setImageWithURL:[kAPIImageBaseURL URLByAppendingPathComponent:feedItem.posterPath]];
+    }else{
+        [self.moviePoster setImage:[UIImage imageNamed:@"DefaultPoster"]];
     }
 }
 @end

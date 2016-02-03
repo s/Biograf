@@ -479,6 +479,7 @@
 			baseConfigurationReference = 78D91E6F0FECB139502FDB71 /* Pods-Biograf.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tower Labs. (5HUFE8X3DE)";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Biograf/SupportingFiles/Biograf-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -489,7 +490,7 @@
 				INFOPLIST_PREFIX_HEADER = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.towerlabs.Biograf;
+				PRODUCT_BUNDLE_IDENTIFIER = com.towerlabs.biograf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -499,6 +500,7 @@
 			baseConfigurationReference = BA8F20B9E48E3AF82ABA40B0 /* Pods-Biograf.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tower Labs. (5HUFE8X3DE)";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Biograf/SupportingFiles/Biograf-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -509,7 +511,7 @@
 				INFOPLIST_PREFIX_HEADER = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.towerlabs.Biograf;
+				PRODUCT_BUNDLE_IDENTIFIER = com.towerlabs.biograf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
